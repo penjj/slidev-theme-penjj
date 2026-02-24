@@ -1,0 +1,6 @@
+{
+  "extends": "@penjj/tsconfig/vue",
+  "compilerOptions": {
+    "types": ["vite/client"]
+  }
+}

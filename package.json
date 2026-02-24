@@ -1,0 +1,51 @@
+{
+  "name": "slidev-theme-penjj",
+  "version": "0.0.1",
+  "description": "A personal slidev theme with flowing dynamic backgrounds",
+  "type": "module",
+  "author": "penjj",
+  "keywords": [
+    "slidev",
+    "theme",
+    "ai"
+  ],
+  "peerDependencies": {
+    "slidev": ">=1.0.0",
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@penjj/tsconfig": "^0.5.1",
+    "vite": "^7.3.1",
+    "vue": "^3.4.0"
+  },
+  "slidev": {
+    "defaults": {
+      "colorSchema": "dark",
+      "fonts": {
+        "sans": "Roboto, sans-serif",
+        "serif": "Roboto Slab, serif",
+        "mono": "Fira Code, monospace"
+      },
+      "transition": "slide-left"
+    }
+  },
+  "engines": {
+    "slidev": ">=1.0.0"
+  },
+  "scripts": {
+    "dev": "slidev example.md --open",
+    "build": "slidev build example.md",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "main": "index.ts",
+  "files": [
+    "**/*.{ts,vue,css}"
+  ],
+  "license": "MIT",
+  "packageManager": "pnpm@9.15.9",
+  "dependencies": {
+    "@biomejs/biome": "^2.4.4",
+    "@slidev/client": "^52.11.5"
+  }
+}
