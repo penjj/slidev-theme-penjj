@@ -1,7 +1,7 @@
 ---
 theme: .
 title: slidev-theme-penjj
-logo: images/logo-dark.png
+logo: images/avatar.jpg
 author: penjj
 transition: view-transition
 mdc: true
