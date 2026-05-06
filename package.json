@@ -14,8 +14,8 @@
   },
   "devDependencies": {
     "@penjj/tsconfig": "^0.5.1",
-    "vite": "^7.3.1",
-    "vue": "^3.4.0"
+    "vite": "^7.3.2",
+    "vue": "^3.5.33"
   },
   "slidev": {
     "defaults": {
@@ -44,7 +44,7 @@
   "license": "MIT",
   "packageManager": "pnpm@9.15.9",
   "dependencies": {
-    "@biomejs/biome": "^2.4.4",
-    "@slidev/client": "^52.11.5"
+    "@biomejs/biome": "^2.4.14",
+    "@slidev/client": "^52.15.1"
   }
 }
